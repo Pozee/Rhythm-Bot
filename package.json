@@ -2,6 +2,9 @@
   "name": "rhythm-bot",
   "version": "2.1.5",
   "description": "",
+  "engines": {
+    "node": "6.11.14"
+  },
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app",
@@ -10,7 +13,7 @@
   "author": "Malexion",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
+    "@discordjs/opus": "github:discordjs/opus",
     "@types/jsonfile": "^5.0.1",
     "@types/minimist": "^1.2.0",
     "@types/moment": "^2.13.0",
@@ -22,10 +25,11 @@
     "discord-command-parser": "^1.5.3",
     "discord.js": "^12.5.1",
     "erlpack": "^0.1.3",
-    "ffmpeg-static": "^4.2.7",
+    "ffmpeg-static": "^4.4.0",
     "jsonfile": "^2.4.0",
     "minimist": "^1.2.3",
     "moment": "^2.27.0",
+    "node-pre-gyp": "^0.17.0",
     "sodium": "^3.0.2",
     "typescript": "^3.9.6",
     "utf-8-validate": "^5.0.2",
